@@ -10,7 +10,7 @@
         #link{text-align:right;font-size:20px;}
         #grid form{display:grid; grid-template-columns: 200px auto; grid-column-gap: 5px; grid-row-gap: 5px;}
         .size{font-size: 20px;font-family: arial;}
-        input[type=text]{border-radius: 5px;width:500px;height:35px;font-size: 20px;border:solid 1px black}
+        input[type=text]{border-radius: 5px;width:500px;height:35px;font-size: 20px;border:solid 1px black;padding: 2px;}
         input[type=submit]{border-radius: 5px;width:150px;height:35px;color:white;background-color:blue;font-size: 15px;}
         #grid{margin:20px;padding:20px;}
         @media screen and (max-width: 600px) {
@@ -31,9 +31,9 @@
         <div style="margin-left:45px;"><h2>Advanced Search</h2></div>
         <div style="margin-left:45px;"><h4>Find pages with...</h4></div>
     
-        <div id="grid"><form action="https://www.google.com/advanced_search">
+        <div id="grid"><form action="https://www.google.com/search">
             <div class="size">All of the words:</div>
-           <div> <input type="text" name="as_q" ></div>
+           <div> <input type="text" name="as_q"></div>
            <div class="size">Exact phrase:</div>
             <div><input type="text" name="as_epq"></div>
             <div class="size">Any of the words:</div>
